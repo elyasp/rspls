@@ -1,0 +1,2 @@
+export const SCORE_PLAYER_ONE = "SCORE_PLAYER_ONE";
+export const SCORE_PLAYER_TWO = "SCORE_PLAYER_TWO";
