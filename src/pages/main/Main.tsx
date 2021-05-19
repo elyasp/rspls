@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Grid, TextField, Typography } from "@material-ui/core";
 import Zoom from "react-reveal/Zoom";
 import { StyledTypography, useStyles } from "./styles";
-import { useAppDispatch, useAppSelector } from "../../hooks";
+import { useAppDispatch } from "../../hooks";
 import { addPlayers } from "../../redux/players/playerActions";
 import { startGame } from "../../redux/game/gameActions";
 import { ActionButton, IconGridContainer } from "../../components";
