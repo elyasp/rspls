@@ -14,11 +14,9 @@ export const App: React.FC = () => {
         <CssBaseline />
 
         {hasStarted ? (
-          <>
-            <Flip bottom>
-              <Gameplay />
-            </Flip>
-          </>
+          <Flip bottom>
+            <Gameplay />
+          </Flip>
         ) : (
           <>
             <Flip top>
