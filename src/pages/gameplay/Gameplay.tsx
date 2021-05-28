@@ -20,8 +20,8 @@ export const Gameplay: React.FC = () => {
   const classes = useStyles();
 
   const handleRound = (): void => {
-    let one = utils.randomOne();
-    let two = utils.randomTwo();
+    const one = utils.randomOne();
+    const two = utils.randomTwo();
 
     const { handOne, handTwo, punchline } = utils.getResults(
       one,

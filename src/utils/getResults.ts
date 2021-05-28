@@ -1,9 +1,9 @@
 import { GameRules } from "../constants/gameRules";
 import { scorePlayerOne, scorePlayerTwo } from "../redux/score/scoreActions";
 
-export const getResults = (one, two, dispatch) => {
-  let handOne = GameRules[one].tool;
-  let handTwo = GameRules[two].tool;
+export const getResults = (one: number, two: number, dispatch: Function) => {
+  const handOne = GameRules[one].tool;
+  const handTwo = GameRules[two].tool;
   let punchline;
 
   if (GameRules[one].beats.includes(handTwo)) {

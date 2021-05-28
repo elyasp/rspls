@@ -22,13 +22,7 @@ export const Main: React.FC = () => {
     <>
       <Grid container spacing={3} className={classes.root}>
         <Grid item xs={12}>
-          <StyledTypography variant="h1">
-            <span>R</span>
-            <span>P</span>
-            <span>S</span>
-            <span>L</span>
-            <span>S</span>
-          </StyledTypography>
+          <StyledTypography variant="h1">RSPLS</StyledTypography>
         </Grid>
         <Grid item xs={12}>
           <IconGridContainer />

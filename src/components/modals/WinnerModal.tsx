@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import * as gameActions from "../../redux/game/gameActions";
 import { useAppSelector } from "../../hooks";
 import { Dialog, Typography } from "@material-ui/core";
-import { ActionButton } from "../";
+import { ActionButton } from "..";
 import { useStyles } from "./styles";
 import { Player } from "../player";
 

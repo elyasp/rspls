@@ -1,7 +1,6 @@
 import React from "react";
 import { Paper, Grid } from "@material-ui/core";
 import { useStyles } from "./styles";
-
 interface IScoreProps {
   scoreOne: string;
   scoreTwo: string;

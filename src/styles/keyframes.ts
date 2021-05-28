@@ -1,14 +1,5 @@
 import { keyframes } from "styled-components";
 
-export const zoom = keyframes`
-  0% {
-      transform: scale(.8)
-      }
-  100% {
-      transform: scale(1.4)
-      }
-`;
-
 export const twirlText = keyframes`
   0% {
     text-shadow:
