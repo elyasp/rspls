@@ -1,4 +1,4 @@
-# Code assessment made for abacum.io
+
 
 ## Instructions
 
